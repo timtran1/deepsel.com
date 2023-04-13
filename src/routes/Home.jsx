@@ -72,7 +72,85 @@ export default function () {
                 </div>
             </section>
 
-            <section className="moment-section mt-72">
+            <section className="steps-section mt-40">
+                <div className="auto-container">
+                    <div className="sec-title centered">
+                        <div className="title">Steps for done</div>
+                        <h2>Easy steps to do <br/> consult with us <span>us</span></h2>
+                    </div>
+
+                    <div className="outer-container">
+                        <div className="row clearfix">
+
+                            <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div className="icon-outer">
+                                        <div className="icon-box">
+                                            <span className="icon flaticon-contact"></span>
+                                        </div>
+                                    </div>
+                                    <div className="lower-box">
+                                        <h5><a href="#">Contact us first</a></h5>
+                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
+                                        <a className="contact" href="#">Contact us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp" data-wow-delay="300ms"
+                                     data-wow-duration="1500ms">
+                                    <div className="icon-outer">
+                                        <div className="icon-box">
+                                            <span className="icon flaticon-network-1"></span>
+                                        </div>
+                                    </div>
+                                    <div className="lower-box">
+                                        <h5><a href="#">Consult with us</a></h5>
+                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
+                                        <a className="contact" href="#">Appoinment</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp" data-wow-delay="600ms"
+                                     data-wow-duration="1500ms">
+                                    <div className="icon-outer">
+                                        <div className="icon-box">
+                                            <span className="icon flaticon-target"></span>
+                                        </div>
+                                    </div>
+                                    <div className="lower-box">
+                                        <h5><a href="#">Place Order</a></h5>
+                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
+                                        <a className="contact" href="#">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp" data-wow-delay="900ms"
+                                     data-wow-duration="1500ms">
+                                    <div className="icon-outer">
+                                        <div className="icon-box">
+                                            <span className="icon flaticon-banknote"></span>
+                                        </div>
+                                    </div>
+                                    <div className="lower-box">
+                                        <h5><a href="#">Make Payment</a></h5>
+                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
+                                        <a className="contact" href="#">Payment</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section className="moment-section">
                 <div className="auto-container">
                     <div className="row clearfix">
 
@@ -280,8 +358,8 @@ export default function () {
                                     </div>
 
                                     <div className="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                                        <button className="theme-btn btn-style-one" type="submit"
-                                                name="submit-form">Contact with us
+                                        <button className="theme-btn btn-style-one transition-all duration-300" type="submit"
+                                                name="submit-form">Contact us
                                         </button>
                                     </div>
 
@@ -291,7 +369,7 @@ export default function () {
                         </div>
 
                         <div className="side-image wow rubberBand" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <img src="/images/resource/form-icon.png" alt=""/>
+                            <img src="/img/form-icon.png" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -363,65 +441,6 @@ export default function () {
                                         </div>
                                     </div>
 
-
-                                    <div className="footer-column col-lg-6 col-md-6 col-sm-12">
-                                        <div className="footer-widget gallery-widget">
-                                            <h4>Gallery</h4>
-                                            <div className="widget-content">
-                                                <div className="images-outer clearfix">
-                                                  
-                                                    <figure className="image-box"><a href="/images/gallery/1.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-1.jpg" alt=""/></a>
-                                                    </figure>
-                                                  
-                                                    <figure className="image-box"><a href="/images/gallery/2.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-2.jpg" alt=""/></a>
-                                                    </figure>
-                                                 
-                                                    <figure className="image-box"><a href="/images/gallery/3.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-3.jpg" alt=""/></a>
-                                                    </figure>
-                                                 
-                                                    <figure className="image-box"><a href="/images/gallery/4.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-4.jpg" alt=""/></a>
-                                                    </figure>
-                                                    
-                                                    <figure className="image-box"><a href="/images/gallery/5.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-5.jpg" alt=""/></a>
-                                                    </figure>
-                                                    
-                                                    <figure className="image-box"><a href="/images/gallery/6.jpg"
-                                                                                     className="lightbox-image"
-                                                                                     data-fancybox="footer-gallery"
-                                                                                     title="Image Title Here"
-                                                                                     data-fancybox-group="footer-gallery"><img
-                                                        src="/images/gallery/footer-gallery-thumb-6.jpg" alt=""/></a>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
 
@@ -437,20 +456,9 @@ export default function () {
 
                                 <div className="copyright-column col-lg-6 col-md-6 col-sm-12">
                                     <div className="copyright">2018 &copy; All rights reserved by <a
-                                        href="#">Themexriver</a></div>
+                                        href="#">Deepsel Inc</a></div>
                                 </div>
 
-
-                                <div className="social-column col-lg-6 col-md-6 col-sm-12">
-                                    <ul>
-                                        <li className="follow">Follow us:</li>
-                                        <li><a href="#"><span className="fa fa-facebook-square"></span></a></li>
-                                        <li><a href="#"><span className="fa fa-twitter-square"></span></a></li>
-                                        <li><a href="#"><span className="fa fa-linkedin-square"></span></a></li>
-                                        <li><a href="#"><span className="fa fa-google-plus-square"></span></a></li>
-                                        <li><a href="#"><span className="fa fa-rss-square"></span></a></li>
-                                    </ul>
-                                </div>
 
                             </div>
                         </div>
