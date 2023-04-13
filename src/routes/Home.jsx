@@ -1,3 +1,6 @@
+import Header from "../components/common/Header.jsx";
+import Footer from "../components/common/Footer.jsx";
+
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
 import '../assets/css/responsive.css';
@@ -6,50 +9,7 @@ import '../assets/css/responsive.css';
 export default function () {
     return (
         <div>
-
-            <header className="main-header">
-                <div className="header-upper">
-                    <div className="auto-container">
-                        <div className="clearfix">
-
-                            <div className="pull-left logo-box">
-                                <div className="logo">
-                                    <a href="index.html">
-                                        <img src="/img/logo.png" width={110} alt="" title=""/>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="nav-outer clearfix">
-
-                                <nav className="main-menu navbar-expand-md">
-                                    <div className="navbar-header">
-                                        <button className="navbar-toggler" type="button" data-toggle="collapse"
-                                                data-target="#navbarSupportedContent"
-                                                aria-controls="navbarSupportedContent" aria-expanded="false"
-                                                aria-label="Toggle navigation">
-                                            <span className="icon-bar"></span>
-                                            <span className="icon-bar"></span>
-                                            <span className="icon-bar"></span>
-                                        </button>
-                                    </div>
-
-                                    <div style={{visibility: 'visible'}}
-                                         className="navbar-collapse collapse show clearfix" id="navbarSupportedContent">
-                                        <ul className="navigation clearfix">
-                                            <li><a href="contact.html">Home</a></li>
-                                            <li><a href="contact.html">Contact us</a></li>
-                                        </ul>
-                                    </div>
-
-                                </nav>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </header>
+            <Header/>
 
             <section className="banner-section-two">
                 <div className="image-layer" style={{backgroundImage: `url(/img/5.png)`}}></div>
@@ -96,7 +56,7 @@ export default function () {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
                                 <div className="inner-box wow fadeInUp" data-wow-delay="300ms"
                                      data-wow-duration="1500ms">
@@ -112,7 +72,7 @@ export default function () {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
                                 <div className="inner-box wow fadeInUp" data-wow-delay="600ms"
                                      data-wow-duration="1500ms">
@@ -128,7 +88,7 @@ export default function () {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="services-block-two col-lg-3 col-md-6 col-sm-12">
                                 <div className="inner-box wow fadeInUp" data-wow-delay="900ms"
                                      data-wow-duration="1500ms">
@@ -149,7 +109,7 @@ export default function () {
                     </div>
                 </div>
             </section>
-            
+
             <section className="moment-section">
                 <div className="auto-container">
                     <div className="row clearfix">
@@ -328,7 +288,6 @@ export default function () {
                 </div>
             </section>
 
-
             <section className="contact-form-section">
                 <div className="auto-container">
                     <div className="inner-container">
@@ -358,7 +317,8 @@ export default function () {
                                     </div>
 
                                     <div className="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                                        <button className="theme-btn btn-style-one transition-all duration-300" type="submit"
+                                        <button className="theme-btn btn-style-one transition-all duration-300"
+                                                type="submit"
                                                 name="submit-form">Contact us
                                         </button>
                                     </div>
@@ -375,96 +335,7 @@ export default function () {
                 </div>
             </section>
 
-
-            <footer className="main-footer">
-                <div className="auto-container">
-
-                    <div className="widgets-section">
-                        <div className="row clearfix">
-
-
-                            <div className="big-column col-lg-6 col-md-12 col-sm-12">
-                                <div className="row clearfix">
-
-
-                                    <div className="footer-column col-lg-7 col-md-6 col-sm-12">
-                                        <div className="footer-widget logo-widget">
-                                            <div className="logo">
-                                                <a href="index.html"><img src="/images/footer-logo.png" alt=""/></a>
-                                            </div>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit, sed do eiusmod tempor incididunt.
-                                            </div>
-                                            <ul className="list-style-one">
-                                                <li><span className="icon fa fa-phone"></span> +123 (4567) 890</li>
-                                                <li><span className="icon fa fa-envelope"></span> info@pixer.com</li>
-                                                <li><span className="icon fa fa-home"></span>380 St Kilda Road,
-                                                    Melbourne <br/> VIC 3004, Australia
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div className="footer-column col-lg-5 col-md-6 col-sm-12">
-                                        <div className="footer-widget links-widget">
-                                            <h4>Links</h4>
-                                            <ul className="list-link">
-                                                <li><a href="">Home</a></li>
-                                                <li><a href="">Services</a></li>
-                                                <li><a href="">About us</a></li>
-                                                <li><a href="">Testimonials</a></li>
-                                                <li><a href="">News</a></li>
-                                                <li><a href="">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <div className="big-column col-lg-6 col-md-12 col-sm-12">
-                                <div className="row clearfix">
-
-
-                                    <div className="footer-column col-lg-6 col-md-6 col-sm-12">
-                                        <div className="footer-widget links-widget">
-                                            <h4>Support</h4>
-                                            <ul className="list-link">
-                                                <li><a href="">Contact Us</a></li>
-                                                <li><a href="">Submit a Ticket</a></li>
-                                                <li><a href="">Visit Knowledge Base</a></li>
-                                                <li><a href="">Support System</a></li>
-                                                <li><a href="">Refund Policy</a></li>
-                                                <li><a href="">Professional Services</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div className="footer-bottom">
-                    <div className="auto-container">
-                        <div className="inner-container">
-                            <div className="row clearfix">
-
-
-                                <div className="copyright-column col-lg-6 col-md-6 col-sm-12">
-                                    <div className="copyright">2018 &copy; All rights reserved by <a
-                                        href="#">Deepsel Inc</a></div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            <Footer/>
         </div>
     )
 }
