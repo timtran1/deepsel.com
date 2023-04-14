@@ -2,7 +2,7 @@ import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
 import scroll from "../ultilities/scroll.js";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPaperPlane, faUsers, faGears, faCodeCompare} from "@fortawesome/free-solid-svg-icons";
+import {faPaperPlane, faUsers, faGears, faCodeCompare, faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
@@ -14,6 +14,7 @@ export default function () {
         <div>
             <Header/>
 
+            {/*hero*/}
             <section className="banner-section-two">
                 <div className="image-layer" style={{backgroundImage: `url(/img/5.png)`}}></div>
                 <div className="auto-container">
@@ -26,8 +27,8 @@ export default function () {
                             </div>
                             <a href="/#contact"
                                onClick={e => scroll(e, 'contact')}
-                               className="theme-btn btn-style-three">Hire us today <span
-                                className="fa fa-arrow-right"></span>
+                               className="theme-btn btn-style-three">Hire us today
+                                <FontAwesomeIcon icon={faArrowRight} className="ml-2"/>
                             </a>
                         </div>
                     </div>
@@ -39,6 +40,7 @@ export default function () {
                 </div>
             </section>
 
+            {/*steps*/}
             <section className="steps-section mt-40">
                 <div className="auto-container">
                     <div className="sec-title centered">
@@ -139,6 +141,7 @@ export default function () {
                 </div>
             </section>
 
+            {/*why us*/}
             <section className="moment-section">
                 <div className="auto-container">
                     <div className="row clearfix">
@@ -156,12 +159,13 @@ export default function () {
                             <div className="inner-column">
 
                                 <div className="sec-title">
-                                    <div className="title">we are pixer</div>
-                                    <h2>we are happy to assist <br/> you all time <span>moment</span></h2>
+                                    <div className="title">we are deepsel</div>
+                                    <h2 className={`p-0`}>Why us</h2>
                                 </div>
-                                <div className="text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                                    used in laying out print, graphic or web designs. The passage is attributed. So some
-                                    forward-looking CIOs are putting.
+                                <div className="text">With an emphasis on
+                                    <span className={`text-red-500 font-semibold tracking-widest mx-1`}>high quality</span>
+                                    and <span className={`text-red-500 font-semibold tracking-widest ml-1`}>fast delivery</span>,
+                                      we serve as a trusted partner for clients in a variety of industries.
                                 </div>
 
 
@@ -169,17 +173,17 @@ export default function () {
 
 
                                     <li className="accordion block">
-                                        <div className="acc-btn">
+                                        <div className="acc-btn ">
                                             <div className="icon-outer"><span
                                                 className="icon icon-plus fa fa-plus"></span> <span
                                                 className="icon icon-minus fa fa-minus"></span></div>
-                                            Solutions is the latest software Sigma?
+                                            Technical expertise
                                         </div>
-                                        <div className="acc-content">
+                                        <div className="acc-content current">
                                             <div className="content">
                                                 <div className="text">
-                                                    <p>The argument in favor of using to filler text goes something is
-                                                        that anybody can do it.</p>
+                                                    <p>We draw from only the best tech talents, utilizing industry veterans
+                                                        with high standards of quality and professionalism.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -190,13 +194,14 @@ export default function () {
                                             <div className="icon-outer"><span
                                                 className="icon icon-plus fa fa-plus"></span> <span
                                                 className="icon icon-minus fa fa-minus"></span></div>
-                                            Machine learning shows potential to leverage?
+                                            Personal approach
                                         </div>
                                         <div className="acc-content current">
                                             <div className="content">
                                                 <div className="text">
-                                                    <p>The argument in favor of using to filler text goes something is
-                                                        that anybody can do it.</p>
+                                                    <p>We apply a customer oriented approach, with your interest at the core. We take care to deliver impactful
+                                                        solutions that accurately solve your
+                                                        business needs.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,16 +209,18 @@ export default function () {
 
                                     <li className="accordion block">
                                         <div className="acc-btn">
-                                            <div className="icon-outer"><span
-                                                className="icon icon-plus fa fa-plus"></span> <span
-                                                className="icon icon-minus fa fa-minus"></span></div>
-                                            So some forward-looking CIOs are putting?
+                                            <div className="icon-outer">
+                                                <span className="icon icon-plus fa fa-plus"></span>
+                                                <span className="icon icon-minus fa fa-minus"></span>
+                                            </div>
+                                            Long-term relationship
                                         </div>
-                                        <div className="acc-content">
+                                        <div className="acc-content current">
                                             <div className="content">
                                                 <div className="text">
-                                                    <p>The argument in favor of using to filler text goes something is
-                                                        that anybody can do it.</p>
+                                                    <p>We aim to build long-term working relationships with our
+                                                        clients. We believe that by doing so, our mutual knowledge and
+                                                        understanding can compound into remarkable results.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,6 +235,7 @@ export default function () {
                 </div>
             </section>
 
+            {/*blog*/}
             <section className="news-section">
                 <div className="auto-container">
 
@@ -317,13 +325,13 @@ export default function () {
                 </div>
             </section>
 
+            {/*contact*/}
             <section id="contact" className="contact-form-section">
                 <div className="auto-container">
-                    <div className="inner-container">
+                    <div className="inner-container bg-gradient-to-r to-[#f27121] from-[#e94057] shadow">
                         <div className="icons-one"></div>
                         <div className="icons-two"></div>
-                        <h3>Have a job for us? <br/> Just shoot us a message.</h3>
-
+                        <h3>Have a job for us? <br/> Send us a message.</h3>
 
                         <div className="default-form">
                             <form method="post" action="blog.html">
@@ -346,7 +354,7 @@ export default function () {
                                     </div>
 
                                     <div className="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                                        <button className="theme-btn btn-style-one transition-all duration-300"
+                                        <button className="theme-btn px-5 font-semibold py-3 bg-black text-white cursor-pointer rounded-full transition-all duration-300"
                                                 type="submit"
                                                 name="submit-form">Contact us
                                         </button>
