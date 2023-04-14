@@ -1,0 +1,6 @@
+.list-link li a {
+    padding-left: 0!important;
+}
+.list-link li a:before {
+    content: none!important;
+}

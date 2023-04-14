@@ -1,3 +1,6 @@
+import {Link} from "react-router-dom";
+import scroll from "../../ultilities/scroll.js";
+
 export default function () {
     return (
         <header className="main-header">
@@ -7,9 +10,9 @@ export default function () {
 
                         <div className="pull-left logo-box">
                             <div className="logo">
-                                <a href="index.html">
+                                <Link to="/">
                                     <img src="/img/logo.png" width={110} alt="" title=""/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
@@ -30,8 +33,13 @@ export default function () {
                                 <div style={{visibility: 'visible'}}
                                      className="navbar-collapse collapse show clearfix" id="navbarSupportedContent">
                                     <ul className="navigation clearfix">
-                                        <li><a href="contact.html">Home</a></li>
-                                        <li><a href="contact.html">Contact us</a></li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/blog">Blog</Link></li>
+                                        <li>
+                                            <a href="/#contact" onClick={e => scroll(e, 'contact')}>
+                                                Contact us
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 

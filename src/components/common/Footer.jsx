@@ -1,5 +1,13 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faPhone, faHome, faEnvelope, faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-router-dom";
+import scroll from "../../ultilities/scroll.js";
+
+import '../../assets/css/footer.css'
+
 export default function () {
     const year = new Date().getFullYear();
+
     return (
         <footer className="main-footer">
             <div className="auto-container">
@@ -10,23 +18,12 @@ export default function () {
 
                         <div className="big-column col-lg-6 col-md-12 col-sm-12">
                             <div className="row clearfix">
-
-
                                 <div className="footer-column col-lg-7 col-md-6 col-sm-12">
                                     <div className="footer-widget logo-widget">
                                         <div className="logo">
-                                            <a href="index.html"><img src="/images/footer-logo.png" alt=""/></a>
+                                            <Link to="/"><img src="/img/logo.png" width={150} alt=""/></Link>
                                         </div>
-                                        <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                            elit, sed do eiusmod tempor incididunt.
-                                        </div>
-                                        <ul className="list-style-one">
-                                            <li><span className="icon fa fa-phone"></span> +123 (4567) 890</li>
-                                            <li><span className="icon fa fa-envelope"></span> info@pixer.com</li>
-                                            <li><span className="icon fa fa-home"></span>380 St Kilda Road,
-                                                Melbourne <br/> VIC 3004, Australia
-                                            </li>
-                                        </ul>
+
                                     </div>
                                 </div>
 
@@ -34,12 +31,10 @@ export default function () {
                                     <div className="footer-widget links-widget">
                                         <h4>Links</h4>
                                         <ul className="list-link">
-                                            <li><a href="">Home</a></li>
-                                            <li><a href="">Services</a></li>
-                                            <li><a href="">About us</a></li>
-                                            <li><a href="">Testimonials</a></li>
-                                            <li><a href="">News</a></li>
-                                            <li><a href="">Contact</a></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="/">Home</Link></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="/blog">Blog</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -48,26 +43,55 @@ export default function () {
                         </div>
 
 
-                        <div className="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div className="row clearfix">
 
 
                                 <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                     <div className="footer-widget links-widget">
+
                                         <h4>Support</h4>
                                         <ul className="list-link">
-                                            <li><a href="">Contact Us</a></li>
-                                            <li><a href="">Submit a Ticket</a></li>
-                                            <li><a href="">Visit Knowledge Base</a></li>
-                                            <li><a href="">Support System</a></li>
-                                            <li><a href="">Refund Policy</a></li>
-                                            <li><a href="">Professional Services</a></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/>
+                                                <a href="/#contact" onClick={event => scroll(e, 'contact')}>
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="/terms-of-service">Terms of Service</Link></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="/privacy-policy">Privacy Policy</Link></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="footer-column col-lg-6 col-md-6 col-sm-12">
+                                    <div className="footer-widget gallery-widget">
+                                        <ul className="list-style-one">
+                                            <li className="pl-0"><b>Deepsel Inc.</b></li>
+                                            <li>
+                                                <a href="tel:4156551009">
+                                                    <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#666666]"/>
+                                                    (415) 655 1009
+                                                </a>
+                                            </li>
+                                            <li><a href="mailto:tim.tran@deepsel.com">
+                                                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-[#666666]"/>
+                                                tim.tran@deepsel.com
+                                            </a></li>
+                                            <li>
+                                                <FontAwesomeIcon icon={faHome} className="mr-2"/>
+                                                2261 Market Street #4441 <br/>San
+                                                Francisco
+                                                CA, 94114
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
+
 
                     </div>
                 </div>
@@ -80,8 +104,8 @@ export default function () {
 
 
                             <div className="copyright-column col-lg-6 col-md-6 col-sm-12">
-                                <div className="copyright">{year} &copy; All rights reserved, <a
-                                    href="#">Deepsel Inc.</a></div>
+                                <div className="copyright">{year} &copy; Deepsel Inc., <a
+                                    href="#">All rights reserved</a></div>
                             </div>
 
 

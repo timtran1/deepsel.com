@@ -1,5 +1,8 @@
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
+import scroll from "../ultilities/scroll.js";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faPaperPlane, faUsers, faGears, faCodeCompare} from "@fortawesome/free-solid-svg-icons";
 
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
@@ -16,12 +19,16 @@ export default function () {
                 <div className="auto-container">
                     <div className="clearfix">
                         <div className="content">
-                            <h1>Make <span>your</span> software <br/> a reality</h1>
+                            {/*<h1>Make <span>your</span> software <br/> a reality</h1>*/}
+                            <h1>Build and ship <span>your</span> <br/> software product to market, fast</h1>
                             <div className="text">
-                                Ship your software product fast <br/> with our team of experts.
+                                Bring your software product vision to reality<br/> with our team of experts.
                             </div>
-                            <a href="#" className="theme-btn btn-style-three">Hire us today <span
-                                className="fa fa-arrow-right"></span></a>
+                            <a href="/#contact"
+                               onClick={e => scroll(e, 'contact')}
+                               className="theme-btn btn-style-three">Hire us today <span
+                                className="fa fa-arrow-right"></span>
+                            </a>
                         </div>
                     </div>
                     <div className="image-box">
@@ -35,8 +42,8 @@ export default function () {
             <section className="steps-section mt-40">
                 <div className="auto-container">
                     <div className="sec-title centered">
-                        <div className="title">Steps for done</div>
-                        <h2>Easy steps to do <br/> consult with us <span>us</span></h2>
+                        <div className="title">Getting started</div>
+                        <h2>Easy steps to <br/> <span>start</span> with us</h2>
                     </div>
 
                     <div className="outer-container">
@@ -46,13 +53,23 @@ export default function () {
                                 <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div className="icon-outer">
                                         <div className="icon-box">
-                                            <span className="icon flaticon-contact"></span>
+                                            {/*<span className="icon flaticon-contact"></span>*/}
+                                            <FontAwesomeIcon icon={faPaperPlane}/>
                                         </div>
                                     </div>
                                     <div className="lower-box">
-                                        <h5><a href="#">Contact us first</a></h5>
-                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
-                                        <a className="contact" href="#">Contact us</a>
+                                        <h5>
+                                            <a href="/#contact" onClick={e => scroll(e, 'contact')}>
+                                                Contact us
+                                            </a>
+                                        </h5>
+                                        <div className="text">After an initial consultation to gather your requirements
+                                            and budget, a
+                                            preliminary cost and timeline estimate is produced.
+                                        </div>
+                                        <a className="contact" href="/#contact" onClick={e => scroll(e, 'contact')}>
+                                            Contact us
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -62,13 +79,18 @@ export default function () {
                                      data-wow-duration="1500ms">
                                     <div className="icon-outer">
                                         <div className="icon-box">
-                                            <span className="icon flaticon-network-1"></span>
+                                            {/*<span className="icon flaticon-network-1"></span>*/}
+                                            <FontAwesomeIcon icon={faUsers}/>
                                         </div>
                                     </div>
                                     <div className="lower-box">
-                                        <h5><a href="#">Consult with us</a></h5>
-                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
-                                        <a className="contact" href="#">Appoinment</a>
+                                        <h5><a>Consultation</a></h5>
+                                        <div className="text">Requirements collection and documentation
+                                            We talk with stakeholders to drill down and collect more detailed
+                                            requirements, and produce a statement of scope, along with any necessary
+                                            cost and timeline adjustments..
+                                        </div>
+                                        {/*<a className="contact" href="#">Appoinment</a>*/}
                                     </div>
                                 </div>
                             </div>
@@ -78,13 +100,17 @@ export default function () {
                                      data-wow-duration="1500ms">
                                     <div className="icon-outer">
                                         <div className="icon-box">
-                                            <span className="icon flaticon-target"></span>
+                                            {/*<span className="icon flaticon-target"></span>*/}
+                                            <FontAwesomeIcon icon={faGears}/>
                                         </div>
                                     </div>
                                     <div className="lower-box">
-                                        <h5><a href="#">Place Order</a></h5>
-                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
-                                        <a className="contact" href="#">Order now</a>
+                                        <h5><a>Engineering</a></h5>
+                                        <div className="text">Our engineers use leading-edge technologies to create
+                                            highly available and scalable software systems that solve your business
+                                            needs.
+                                        </div>
+                                        {/*<a className="contact" href="#">Order now</a>*/}
                                     </div>
                                 </div>
                             </div>
@@ -94,13 +120,16 @@ export default function () {
                                      data-wow-duration="1500ms">
                                     <div className="icon-outer">
                                         <div className="icon-box">
-                                            <span className="icon flaticon-banknote"></span>
+                                            {/*<span className="icon flaticon-banknote"></span>*/}
+                                            <FontAwesomeIcon icon={faCodeCompare}/>
                                         </div>
                                     </div>
                                     <div className="lower-box">
-                                        <h5><a href="#">Make Payment</a></h5>
-                                        <div className="text">Lorem ipsum dolor sit amet, csectetur adipis icing.</div>
-                                        <a className="contact" href="#">Payment</a>
+                                        <h5><a>Delivery</a></h5>
+                                        <div className="text">Product is iteratively tested and delivered, generating a
+                                            flexible, evolving, and business-driven solution.
+                                        </div>
+                                        {/*<a className="contact" href="#">Payment</a>*/}
                                     </div>
                                 </div>
                             </div>
@@ -288,12 +317,12 @@ export default function () {
                 </div>
             </section>
 
-            <section className="contact-form-section">
+            <section id="contact" className="contact-form-section">
                 <div className="auto-container">
                     <div className="inner-container">
                         <div className="icons-one"></div>
                         <div className="icons-two"></div>
-                        <h3>Have any job for our company? <br/> Just connect with us.</h3>
+                        <h3>Have a job for us? <br/> Just shoot us a message.</h3>
 
 
                         <div className="default-form">
@@ -313,7 +342,7 @@ export default function () {
                                     </div>
 
                                     <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Message *"></textarea>
+                                        <textarea name="message" placeholder="Message (optional)"></textarea>
                                     </div>
 
                                     <div className="col-lg-12 col-md-12 col-sm-12 form-group text-center">
