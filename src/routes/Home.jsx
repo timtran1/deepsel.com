@@ -232,8 +232,8 @@ export default function () {
                 <div className="auto-container">
 
                     <div className="sec-title centered">
-                        <div className="title">Our expert team</div>
-                        <h2>We re dedic <br/> our devoted srv <span>fetures</span></h2>
+                        <div className="title">Blog & News</div>
+                        <h2>Interested in how we work? <br/> check out our <a href="/blog"><span>blog</span></a></h2>
                     </div>
 
                     <div className="row clearfix">
