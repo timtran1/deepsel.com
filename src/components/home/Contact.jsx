@@ -40,9 +40,9 @@ export default function () {
 
                     </div>
 
-                    <div className="side-image wow rubberBand" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <img src="/img/form-icon.png" alt=""/>
-                    </div>
+                    {/*<div className="side-image wow rubberBand" data-wow-delay="0ms" data-wow-duration="1500ms">*/}
+                    {/*    <img src="/img/form-icon.png" alt=""/>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>
