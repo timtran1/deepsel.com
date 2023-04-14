@@ -43,16 +43,8 @@ export default function () {
                                 <div className="lower-content">
                                     <h6><a href={post.url}>{post.title}</a></h6>
                                     <div className="clearfix">
-                                        <div className="pull-left">
-                                            <div className="author">
-                                                <div className="image">
-                                                    <img src="/images/resource/author-4.jpg" alt=""/>
-                                                </div>
-                                                Rio Smith
-                                            </div>
-                                        </div>
                                         <div className="pull-right">
-                                            <div className="post-time">{post.reading_time} min read</div>
+                                            <div className="">{post.reading_time} min read</div>
                                         </div>
                                     </div>
                                 </div>

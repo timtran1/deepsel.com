@@ -3,12 +3,11 @@ import {faCodeCompare, faGears, faPaperPlane, faUsers} from "@fortawesome/free-s
 import scroll from "../../ultilities/scroll.js";
 
 export default function () {
-    return (
-        <section className="steps-section mt-40">
+    return (<section className="steps-section mt-40">
             <div className="auto-container">
                 <div className="sec-title centered">
                     <div className="title">Getting started</div>
-                    <h2>Easy steps to <br/> <span>start</span> with us</h2>
+                    <h2>Easy steps to <br/> <span>Get Started</span></h2>
                 </div>
 
                 <div className="outer-container">
@@ -18,8 +17,10 @@ export default function () {
                             <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="icon-outer">
                                     <div className="icon-box">
-                                        {/*<span className="icon flaticon-contact"></span>*/}
-                                        <FontAwesomeIcon icon={faPaperPlane}/>
+                                        <span className="icon flaticon-contact">
+                                            <FontAwesomeIcon icon={faPaperPlane}/>
+                                        </span>
+
                                     </div>
                                 </div>
                                 <div className="lower-box">
@@ -44,8 +45,9 @@ export default function () {
                                  data-wow-duration="1500ms">
                                 <div className="icon-outer">
                                     <div className="icon-box">
-                                        {/*<span className="icon flaticon-network-1"></span>*/}
-                                        <FontAwesomeIcon icon={faUsers}/>
+                                                 <span className="icon flaticon-contact">
+                                              <FontAwesomeIcon icon={faUsers}/>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="lower-box">
@@ -55,7 +57,6 @@ export default function () {
                                         requirements, and produce a statement of scope, along with any necessary
                                         cost and timeline adjustments..
                                     </div>
-                                    {/*<a className="contact" href="#">Appoinment</a>*/}
                                 </div>
                             </div>
                         </div>
@@ -65,8 +66,9 @@ export default function () {
                                  data-wow-duration="1500ms">
                                 <div className="icon-outer">
                                     <div className="icon-box">
-                                        {/*<span className="icon flaticon-target"></span>*/}
-                                        <FontAwesomeIcon icon={faGears}/>
+                                                     <span className="icon flaticon-contact">
+                                              <FontAwesomeIcon icon={faGears}/>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="lower-box">
@@ -75,7 +77,6 @@ export default function () {
                                         highly available and scalable software systems that solve your business
                                         needs.
                                     </div>
-                                    {/*<a className="contact" href="#">Order now</a>*/}
                                 </div>
                             </div>
                         </div>
@@ -85,8 +86,9 @@ export default function () {
                                  data-wow-duration="1500ms">
                                 <div className="icon-outer">
                                     <div className="icon-box">
-                                        {/*<span className="icon flaticon-banknote"></span>*/}
-                                        <FontAwesomeIcon icon={faCodeCompare}/>
+                                                        <span className="icon flaticon-contact">
+                                              <FontAwesomeIcon icon={faCodeCompare}/>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="lower-box">
@@ -94,7 +96,6 @@ export default function () {
                                     <div className="text">Product is iteratively tested and delivered, generating a
                                         flexible, evolving, and business-driven solution.
                                     </div>
-                                    {/*<a className="contact" href="#">Payment</a>*/}
                                 </div>
                             </div>
                         </div>
@@ -102,6 +103,5 @@ export default function () {
                     </div>
                 </div>
             </div>
-        </section>
-    )
+        </section>)
 }
