@@ -4,7 +4,7 @@ import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 export default function () {
     return (
-        <section className="banner-section-two overflow-x-hidden overflow-y-visible">
+        <section className="banner-section-two">
             <div className="image-layer" style={{backgroundImage: `url(/img/5.png)`}}></div>
             <div className="auto-container">
                 <div className="clearfix">
