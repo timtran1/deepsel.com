@@ -75,7 +75,7 @@ export default function () {
                                             {/*        (415) 655 1009*/}
                                             {/*    </a>*/}
                                             {/*</li>*/}
-                                            <li><a href="mailto:tim.tran@deepsel.com">
+                                            <li><a href="mailto:info@deepsel.com">
                                                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-[#666666]"/>
                                                 info@deepsel.com
                                             </a></li>
