@@ -1,2 +1,5 @@
-/*    /index.html   200
+/careers/*    /index.html   200
+/terms-of-service/*    /index.html   200
+/privacy-policy/*    /index.html   200
+/react-v/*    /index.html   200
 /blog/*    https://blog.deepsel.com/blog/:splat   200
