@@ -42,7 +42,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 
-/*@import url('font-awesome.css');*/
+@import url('font-awesome.css');
 /*@import url('flaticon.css');*/
 /*@import url('animate.css');*/
 /*@import url('owl.css');*/
@@ -6118,15 +6118,15 @@ img{
 	margin-bottom:25px;
 }
 
-.blog-single .inner-box .lower-content .text p:first-child::first-letter{
-	position:relative;
-	font-size:50px;
-	color:#e94057;
-	line-height:1em;
-	background: linear-gradient(to top, #fb8460 0%, #e94057 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+/*.blog-single .inner-box .lower-content .text p:first-child::first-letter{*/
+/*	position:relative;*/
+/*	font-size:50px;*/
+/*	color:#e94057;*/
+/*	line-height:1em;*/
+/*	background: linear-gradient(to top, #fb8460 0%, #e94057 100%);*/
+/*	-webkit-background-clip: text;*/
+/*	-webkit-text-fill-color: transparent;*/
+/*}*/
 
 .blog-single .inner-box .lower-content .text p a{
 	text-decoration:underline;

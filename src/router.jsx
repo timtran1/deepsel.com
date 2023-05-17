@@ -3,6 +3,7 @@ import Home from "./routes/Home.jsx";
 import PrivacyPolicy from "./routes/PrivacyPolicy.jsx";
 import TermsOfService from "./routes/TermsOfService.jsx";
 import Careers from "./routes/Careers.jsx";
+import ReactVie from "./routes/careers/ReactVie.jsx";
 
 export default createBrowserRouter([
     {
@@ -20,5 +21,9 @@ export default createBrowserRouter([
     {
         path: "/careers",
         element: <Careers/>,
+    },
+    {
+        path: "/react-v",
+        element: <ReactVie/>,
     }
 ])
