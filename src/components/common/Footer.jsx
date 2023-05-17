@@ -57,9 +57,9 @@ export default function () {
                                         <h4>Support</h4>
                                         <ul className="list-link">
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/>
-                                                <a href="/#contact" onClick={event => scroll(e, 'contact')}>
+                                                <Link to="/#contact">
                                                     Contact Us
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/terms-of-service#top">Terms of Service</Link></li>
