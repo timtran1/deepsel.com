@@ -35,6 +35,7 @@ export default function () {
                                     <ul className="navigation clearfix">
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/blog">Blog</Link></li>
+                                        <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
                                         <li>
                                             <a href="/#contact" onClick={e => scroll(e, 'contact')}>
                                                 Contact us

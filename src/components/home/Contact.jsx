@@ -1,6 +1,7 @@
 export default function () {
     return (
         <section id="contact" className="contact-form-section">
+
             <div className="auto-container">
                 <div className="inner-container bg-gradient-to-r to-[#f27121] from-[#e94057] shadow">
                     <div className="icons-one"></div>
@@ -8,15 +9,16 @@ export default function () {
                     <h3>Have a job for us? <br/> Send us a message.</h3>
 
                     <div className="default-form">
-                        <form method="post" action="blog.html">
+                        <form name="contact" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact"/>
                             <div className="row clearfix">
 
                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                    <input type="text" name="username" placeholder="Your name *" required/>
+                                    <input type="email" name="email" placeholder="Your email *" required/>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                    <input type="email" name="email" placeholder="Your email *" required/>
+                                    <input type="text" name="name" placeholder="Your name *" required/>
                                 </div>
 
                                 <div className="col-lg-12 col-md-12 col-sm-12 form-group">

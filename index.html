@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Deepsel</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+
+<!--    netlify form-->
+<form style="display: none" name="contact" method="POST" data-netlify="true">
+    <input name="email" type="hidden" required/>
+    <input name="name" type="hidden" required/>
+    <input name="subject" type="hidden" required/>
+    <input name="message" type="hidden"/>
+    <button type="submit">Send</button>
+</form>
+</body>
 </html>
