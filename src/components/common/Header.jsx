@@ -60,8 +60,8 @@ export default function () {
                                     </button>
                                 </div>
 
-                                <div className={`overflow-hidden`}>
-                                    <div className={`${showMobileMenu? 'show': ''} navbar-collapse collapse clearfix`}>
+                                {/*<div className={`overflow-hidden`}>*/}
+                                    <div className={`${!showMobileMenu? 'hidden md:block': ''} navbar-collapse clearfix`}>
                                         <ul className="navigation clearfix">
                                             <li><Link to="/">Home</Link></li>
                                             <li><a href="/blog">Blog</a></li>
@@ -75,7 +75,7 @@ export default function () {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                {/*</div>*/}
 
                             </nav>
 
