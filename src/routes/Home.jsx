@@ -6,6 +6,7 @@ import WhyUs from "../components/home/WhyUs.jsx";
 import Blog from "../components/home/Blog.jsx";
 import Contact from "../components/home/Contact.jsx";
 import Clients from "../components/home/Clients.jsx";
+// import Services from "../components/home/Services.jsx";
 
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
@@ -14,15 +15,16 @@ import '../assets/css/responsive.css';
 
 export default function () {
     return (
-        <div>
+        <>
             <Header/>
             <Hero/>
+            {/*<Services/>*/}
             <Steps/>
             <WhyUs/>
             <Clients/>
             <Blog/>
             <Contact/>
             <Footer/>
-        </div>
+        </>
     )
 }
