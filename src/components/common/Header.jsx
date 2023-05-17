@@ -1,9 +1,39 @@
 import {Link} from "react-router-dom";
-import scroll from "../../ultilities/scroll.js";
+// import scroll from "../../ultilities/scroll.js";
+import {useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 
 export default function () {
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        const urlHash = window.location.hash
+        if (urlHash) {
+            const el = document.getElementById(urlHash.replace('#', ''))
+            if (el) el.scrollIntoView({behavior: 'smooth'})
+        }
+    }, [])
+
+    function scroll(event, id) {
+        event.preventDefault()
+        const currentPath = window.location.pathname
+        const elHref = event.target.href
+        const elUrlObject = new URL(elHref)
+        const elPath = elUrlObject.pathname
+        const elPathWithHash = elUrlObject.hash
+        console.log({currentPath, elHref, elUrlObject, elPath, elPathWithHash})
+        if (currentPath !== elPath) {
+            navigate(elPath + elUrlObject.hash)
+            return
+        }
+
+        const el = document.getElementById(id)
+        el.scrollIntoView({behavior: 'smooth'})
+    }
+
+
     return (
-        <header className="main-header">
+        <header className="main-header" id={`top`}>
             <div className="header-upper">
                 <div className="auto-container">
                     <div className="clearfix">
@@ -37,9 +67,9 @@ export default function () {
                                         <li><Link to="/blog">Blog</Link></li>
                                         <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
                                         <li>
-                                            <a href="/#contact" onClick={e => scroll(e, 'contact')}>
+                                            <Link to="/#contact" onClick={e => scroll(e, 'contact')}>
                                                 Contact us
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

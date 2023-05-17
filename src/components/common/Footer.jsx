@@ -35,6 +35,8 @@ export default function () {
                                                 to="/">Home</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/blog">Blog</Link></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -58,9 +60,9 @@ export default function () {
                                                 </a>
                                             </li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/terms-of-service">Terms of Service</Link></li>
+                                                to="/terms-of-service#top">Terms of Service</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/privacy-policy">Privacy Policy</Link></li>
+                                                to="/privacy-policy#top">Privacy Policy</Link></li>
                                         </ul>
                                     </div>
                                 </div>
