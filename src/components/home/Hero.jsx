@@ -9,9 +9,9 @@ export default function () {
             <div className="auto-container">
                 <div className="clearfix">
                     <div className="content">
-                        <h1>Build and ship your <br/> software product to market, <span>fast</span></h1>
+                        <h1>Bring your <br/> software product to market, <span>fast</span></h1>
                         <div className="text">
-                            Bring your software product vision to reality<br/> with our team of experts.
+                            Make your software product vision to reality<br/> with our team of experts.
                         </div>
                         <a href="/#contact"
                            onClick={e => scroll(e, 'contact')}

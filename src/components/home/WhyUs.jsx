@@ -17,7 +17,7 @@ export default function () {
                         <div className="inner-column">
 
                             <div className="sec-title">
-                                <div className="title">we are deepsel</div>
+                                {/*<div className="title">a partner to rely on</div>*/}
                                 <h2 className={`p-0`}>Why us</h2>
                             </div>
                             <div className="text">With an emphasis on
