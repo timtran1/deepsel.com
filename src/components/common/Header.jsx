@@ -64,7 +64,7 @@ export default function () {
                                      className="navbar-collapse collapse show clearfix" id="navbarSupportedContent">
                                     <ul className="navigation clearfix">
                                         <li><Link to="/">Home</Link></li>
-                                        <li><Link to="/blog">Blog</Link></li>
+                                        <li><a href="/blog">Blog</a></li>
                                         <li><Link to="/careers">Careers</Link></li>
                                         <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
                                         <li>

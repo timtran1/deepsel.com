@@ -10,7 +10,7 @@ export default function () {
     }, []);
 
     async function fetchLatestPosts() {
-        const apiEndpoint = `https://async-tech.co/blog/ghost/api/v3/content/posts/?key=${ghostContentApiKey}&limit=3`;
+        const apiEndpoint = `/blog/ghost/api/v3/content/posts/?key=${ghostContentApiKey}&limit=3`;
 
         try {
             const response = await fetch(apiEndpoint);
