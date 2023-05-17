@@ -4,7 +4,7 @@ import {Card} from "@deepsel/lake-ui";
 
 export default function () {
     return (
-        <section id="clients" className={`pt-32`}>
+        <section id="clients" className={`pt-32 pb-20`}>
             <div className="sec-title centered">
                 <div className="title">trusted by</div>
                 <h2>Our clients</h2>

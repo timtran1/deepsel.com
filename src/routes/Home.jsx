@@ -19,9 +19,9 @@ export default function () {
             <Header/>
             <Hero/>
             {/*<Services/>*/}
-            <Steps/>
             <WhyUs/>
             <Clients/>
+            <Steps/>
             <Blog/>
             <Contact/>
             <Footer/>

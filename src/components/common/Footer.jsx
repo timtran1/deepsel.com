@@ -32,11 +32,11 @@ export default function () {
                                         <h4>Links</h4>
                                         <ul className="list-link">
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/">Home</Link></li>
+                                                to="/#top">Home</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/blog">Blog</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/careers">Careers</Link></li>
+                                                to="/careers#top">Careers</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
                                         </ul>

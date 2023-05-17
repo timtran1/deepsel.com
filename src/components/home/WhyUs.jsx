@@ -1,6 +1,6 @@
 export default function () {
     return (
-        <section className="moment-section">
+        <section className="moment-section mt-40">
             <div className="auto-container">
                 <div className="row clearfix">
 

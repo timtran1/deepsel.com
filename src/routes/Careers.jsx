@@ -1,8 +1,5 @@
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
-import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Link} from "react-router-dom";
 
 export default function () {
     return (

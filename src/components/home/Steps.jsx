@@ -3,7 +3,7 @@ import {faCodeCompare, faGears, faPaperPlane, faUsers} from "@fortawesome/free-s
 import scroll from "../../ultilities/scroll.js";
 
 export default function () {
-    return (<section className="steps-section mt-40">
+    return (<section className="steps-section">
         <div className="auto-container">
             <div className="sec-title centered">
                 <div className="title">Getting started</div>
