@@ -5,6 +5,7 @@ import Steps from "../components/home/Steps.jsx";
 import WhyUs from "../components/home/WhyUs.jsx";
 import Blog from "../components/home/Blog.jsx";
 import Contact from "../components/home/Contact.jsx";
+import Clients from "../components/home/Clients.jsx";
 
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
@@ -18,6 +19,7 @@ export default function () {
             <Hero/>
             <Steps/>
             <WhyUs/>
+            <Clients/>
             <Blog/>
             <Contact/>
             <Footer/>

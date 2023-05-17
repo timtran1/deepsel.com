@@ -69,15 +69,15 @@ export default function () {
                                     <div className="footer-widget gallery-widget">
                                         <ul className="list-style-one">
                                             <li className="pl-0"><b>Deepsel Inc.</b></li>
-                                            <li>
-                                                <a href="tel:4156551009">
-                                                    <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#666666]"/>
-                                                    (415) 655 1009
-                                                </a>
-                                            </li>
+                                            {/*<li>*/}
+                                            {/*    <a href="tel:4156551009">*/}
+                                            {/*        <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#666666]"/>*/}
+                                            {/*        (415) 655 1009*/}
+                                            {/*    </a>*/}
+                                            {/*</li>*/}
                                             <li><a href="mailto:tim.tran@deepsel.com">
                                                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-[#666666]"/>
-                                                tim.tran@deepsel.com
+                                                info@deepsel.com
                                             </a></li>
                                             <li>
                                                 <FontAwesomeIcon icon={faHome} className="mr-2"/>
