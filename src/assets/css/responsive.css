@@ -739,7 +739,7 @@
 		text-align: center;
 		border-radius: 0px;
 	    background: none;
-		border: 1px solid #ffffff;
+		/*border: 1px solid #ffffff;*/
 	}
 	
 	.main-menu .navbar-header .navbar-toggler .icon-bar{

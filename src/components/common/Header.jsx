@@ -1,10 +1,11 @@
 import {Link} from "react-router-dom";
 // import scroll from "../../ultilities/scroll.js";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 
 export default function () {
     const navigate = useNavigate()
+    const [showMobileMenu, setShowMobileMenu] = useState(false)
 
     useEffect(() => {
         const urlHash = window.location.hash
@@ -50,9 +51,8 @@ export default function () {
 
                             <nav className="main-menu navbar-expand-md">
                                 <div className="navbar-header">
-                                    <button className="navbar-toggler" type="button" data-toggle="collapse"
-                                            data-target="#navbarSupportedContent"
-                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    <button className="navbar-toggler" type="button"
+                                            onClick={() => setShowMobileMenu(!showMobileMenu)}
                                             aria-label="Toggle navigation">
                                         <span className="icon-bar"></span>
                                         <span className="icon-bar"></span>
@@ -60,19 +60,21 @@ export default function () {
                                     </button>
                                 </div>
 
-                                <div style={{visibility: 'visible'}}
-                                     className="navbar-collapse collapse show clearfix" id="navbarSupportedContent">
-                                    <ul className="navigation clearfix">
-                                        <li><Link to="/">Home</Link></li>
-                                        <li><a href="/blog">Blog</a></li>
-                                        <li><Link to="/careers">Careers</Link></li>
-                                        <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
-                                        <li>
-                                            <Link to="/#contact" onClick={e => scroll(e, 'contact')}>
-                                                Contact us
-                                            </Link>
-                                        </li>
-                                    </ul>
+                                <div className={`overflow-hidden`}>
+                                    <div className={`${showMobileMenu? 'show': ''} navbar-collapse collapse clearfix`}>
+                                        <ul className="navigation clearfix">
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><a href="/blog">Blog</a></li>
+                                            <li><Link to="/careers">Careers</Link></li>
+                                            <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/#contact" onClick={e => scroll(e, 'contact')}>
+                                                    Contact us
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </nav>
