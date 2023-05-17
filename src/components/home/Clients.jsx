@@ -6,7 +6,7 @@ export default function () {
     return (
         <section id="clients" className={`pt-32`}>
             <div className="sec-title centered">
-                <div className="title">we worked with</div>
+                <div className="title">trusted by</div>
                 <h2>Our clients</h2>
             </div>
             <div
