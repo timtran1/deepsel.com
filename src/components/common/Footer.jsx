@@ -33,8 +33,8 @@ export default function () {
                                         <ul className="list-link">
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/#top">Home</Link></li>
-                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/blog">Blog</Link></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><a
+                                                href="/blog">Blog</a></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/careers#top">Careers</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
