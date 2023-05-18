@@ -49,7 +49,7 @@ export default function () {
                                 </li>
 
                                 <li className="accordion block">
-                                    <div className="acc-btn active">
+                                    <div className="acc-btn">
                                         <div className="icon-outer"><span
                                             className="icon icon-plus fa fa-plus"></span> <span
                                             className="icon icon-minus fa fa-minus"></span></div>

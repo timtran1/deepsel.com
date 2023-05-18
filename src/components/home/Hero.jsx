@@ -11,7 +11,7 @@ export default function () {
                     <div className="content">
                         <h1>Bring your <br/> software product to market, <span>fast</span></h1>
                         <div className="text">
-                            Make your software product vision to reality<br/> with our team of experts.
+                            Make your software product vision a reality<br/> with our team of experts.
                         </div>
                         <a href="/#contact"
                            onClick={e => scroll(e, 'contact')}
