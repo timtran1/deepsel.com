@@ -55,15 +55,15 @@ export default function () {
                                             onClick={() => setShowMobileMenu(!showMobileMenu)}
                                             aria-label="Toggle navigation">
                                         <span className="icon-bar"></span>
-                                        <span className="icon-bar"></span>
+                                        {/*<span className="icon-bar"></span>*/}
                                         <span className="icon-bar"></span>
                                     </button>
                                 </div>
 
                                 {/*<div className={`overflow-hidden`}>*/}
                                     <div className={`${!showMobileMenu? 'hidden md:block': ''} navbar-collapse clearfix`}>
-                                        <ul className="navigation clearfix">
-                                            <li><Link to="/">Home</Link></li>
+                                        <ul className="navigation clearfix rounded-3xl">
+                                            <li className={`rounded-3xl`}><Link to="/">Home</Link></li>
                                             <li><a href="/blog">Blog</a></li>
                                             <li><Link to="/careers">Careers</Link></li>
                                             <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link>
