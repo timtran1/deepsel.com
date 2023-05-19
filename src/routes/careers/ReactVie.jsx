@@ -31,12 +31,7 @@ export default function () {
 
                                 <div className={`lower-content`}>
                                     <div className={`text`}>
-                                        <p>Việc làm trả theo giờ khối lượng công việc, 125k - 220k/h (tương đương
-                                            20tr-35tr /
-                                            tháng
-                                            160 giờ).
-                                            <br/>
-                                            Công việc bao gồm chuyển đổi bản vẽ figma thành React frontend cho các new
+                                        <p>Việc làm trả theo giờ khối lượng công việc. Việc bao gồm chuyển đổi bản vẽ figma thành React frontend cho các new
                                             project, chỉnh sửa
                                             và thêm
                                             tính

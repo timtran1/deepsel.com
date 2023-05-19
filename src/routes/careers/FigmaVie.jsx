@@ -31,8 +31,7 @@ export default function () {
 
                                 <div className={`lower-content`}>
                                     <div className={`text`}>
-                                        <p>Việc làm trả theo giờ khối lượng công việc, 95k - 190k/h (tương đương
-                                            15tr-30tr / tháng 160 giờ). Khối lượng công việc phát triển dài hạn.
+                                        <p>Việc làm trả theo giờ khối lượng công việc, phát triển dài hạn.
                                             <br/>
                                             Công việc bao gồm lên bản vẽ figma cho các giao diện web application,
                                             website theo như mô tả. Bản vẽ bao gồm phiên bản desktop và mobile. Có thể
