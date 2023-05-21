@@ -31,7 +31,44 @@ export default function () {
 
                                 <div className={`lower-content`}>
                                     <div className={`text`}>
-                                        <p className={`text-6xl`}><b>TBD</b></p>
+                                        <p>Việc làm trả theo giờ khối lượng công việc, phát triển dài hạn.
+                                            <br/></p>
+
+                                        <h5>Yêu cầu:</h5>
+                                        <ul className={`pl-4`}>
+                                            <li className={`list-disc`}>
+                                                Thành thạo xây dựng API endpoints với FastAPI. Kinh nghiệm về Django và
+                                                Flask là một điểm cộng.
+                                            </li>
+                                            <li className={`list-disc`}>
+                                                Xây dựng database models với ORM (vd: SQLAlchemy).
+                                            </li>
+                                            <li className={`list-disc`}>
+                                                Thành thạo cách làm việc với các database khác nhau, như PostgreSQL,
+                                                MongoDB, MariaDB...
+                                            </li>
+                                            <li className={`list-disc`}>
+                                                Có kinh nghiệm làm việc với các công cụ database migration, data
+                                                insertion (vd: alembic).
+                                            </li>
+                                            <li className={`list-disc`}>
+                                                Kinh nghiệm về Docker là một điểm cộng.
+                                            </li>
+                                        </ul>
+
+                                        <br/>
+
+                                        <p>Khi apply hãy gửi kèm CV của bạn.</p>
+
+                                        <h5>Liên hệ:</h5>
+                                        <ul>
+                                            <li>Email: <a href="mailto:tim.tran@deepsel.com">tim.tran@deepsel.com</a>
+                                            </li>
+                                            <li>Zalo: <a href="https://zalo.me/0982022659">0982022659</a>
+
+                                            </li>
+                                            <img src="/img/zaloqr.jpg" alt="" className={`max-w-[200px] mt-2`}/>
+                                        </ul>
 
                                     </div>
                                 </div>

@@ -31,24 +31,25 @@ export default function () {
 
                                 <div className={`lower-content`}>
                                     <div className={`text`}>
-                                        <p>Việc làm trả theo giờ khối lượng công việc. Việc bao gồm chuyển đổi bản vẽ figma thành React frontend cho các new
+                                        <p>Việc làm trả theo giờ khối lượng công việc. Việc bao gồm chuyển đổi bản vẽ
+                                            figma thành React frontend cho các new
                                             project, chỉnh sửa
                                             và thêm
                                             tính
                                             năng cho các exsiting project.</p>
 
                                         <h5>Các project:</h5>
-                                        <ul>
-                                            <li>Project 1 (new): <a
+                                        <ul className={`pl-4`}>
+                                            <li className={`list-disc`}>Project 1 (new): <a
                                                 href="https://drive.google.com/drive/folders/1Pb3aySlkZPQb7tmQCBNL_T7uYU_JBRyx?usp=sharing">https://drive.google.com/drive/folders/1Pb3aySlkZPQb7tmQCBNL_T7uYU_JBRyx?usp=sharing</a>
                                             </li>
-                                            <li>Project 2 (new): <a
+                                            <li className={`list-disc`}>Project 2 (new): <a
                                                 href="https://drive.google.com/drive/folders/120rLqDhPzjgZVgSseiFPtL5ceV5362bS?usp=share_link">https://drive.google.com/drive/folders/120rLqDhPzjgZVgSseiFPtL5ceV5362bS?usp=share_link</a>
                                             </li>
-                                            <li>Project 3 (existing): <a
+                                            <li className={`list-disc`}>Project 3 (existing): <a
                                                 href="https://icg-preview.deepsel.com">https://icg-preview.deepsel.com</a>
                                             </li>
-                                            <li>Project 4 (existing): <a
+                                            <li className={`list-disc`}>Project 4 (existing): <a
                                                 href="https://snf.deepsel.com/snf">https://snf.deepsel.com/snf</a>
                                             </li>
                                         </ul>
@@ -71,7 +72,7 @@ export default function () {
                                             <li>Zalo: <a href="https://zalo.me/0982022659">0982022659</a>
 
                                             </li>
-                                             <img src="/img/zaloqr.jpg" alt="" className={`max-w-[200px] mt-2`}/>
+                                            <img src="/img/zaloqr.jpg" alt="" className={`max-w-[200px] mt-2`}/>
                                         </ul>
 
                                     </div>
