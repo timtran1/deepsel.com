@@ -10,28 +10,34 @@ export default function () {
                 <h2>Our clients</h2>
             </div>
             <div
-                className="flex flex-col gap-4 md:gap-16 md:flex-row w-full justify-center items-stretch p-5">
+                className="flex flex-col gap-4 md:gap-16 md:flex-row w-full justify-center items-center p-5">
                 <div className={`flex items-center`}>
                     <div className="hidden md:block cursor-pointer text-2xl text-black">
                         <FontAwesomeIcon icon={faChevronLeft}/>
                     </div>
                 </div>
 
-                <Card className="border border-gray-500 flex items-center justify-center min-h-[110px] px-2">
+                <Card className="flex items-center justify-center min-h-[110px] px-2">
                     <a href="https://www.icg.ch/" target="_blank">
                         <img src="/img/icg.png" alt="" className="w-[200px]"/>
                     </a>
                 </Card>
 
-                <Card className="border border-gray-500 flex items-center justify-center min-h-[110px] px-2">
+                <Card className="flex items-center justify-center min-h-[110px] px-2">
                     <a href="https://nativeops.ch/" target="_blank">
                         <img src="/img/nativeops.svg" alt="" className="w-[100px]"/>
                     </a>
                 </Card>
 
-                <Card className="border border-gray-500 flex items-center justify-center min-h-[110px] px-2">
+                <Card className="flex items-center justify-center min-h-[110px] px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
                         <img src="/img/shawsystems.png" alt="" className="w-[340px]"/>
+                    </a>
+                </Card>
+
+                <Card className="flex items-center justify-center min-h-[110px] px-2">
+                    <a href="https://www.daenzer-consulting.ch/" target="_blank">
+                        <img src="/img/danzer-logo.png" alt="" className="w-[150px]"/>
                     </a>
                 </Card>
 
