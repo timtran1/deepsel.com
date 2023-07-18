@@ -90,6 +90,15 @@ export default function () {
                                                 CA, 94114
                                             </li>
                                         </ul>
+                                        <ul className="list-style-one">
+                                            <li className="pl-0"><b>Deepsel Vietnam JSC</b></li>
+                                            <li>
+                                                <FontAwesomeIcon icon={faHome} className="mr-2"/>
+                                                Flr.6, IRIS complex, Loc st.,<br/>
+                                                Hanoi,
+                                                Vietnam
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
 
