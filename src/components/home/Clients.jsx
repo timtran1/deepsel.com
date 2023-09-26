@@ -34,14 +34,12 @@ export default function () {
         slidesToScroll: 1,
         centerPadding: "0px",
         autoPlay: true,
-        adaptiveHeight: true,
         prevArrow:
-
-            <div className={`flex items-center`}>
+         <div className={`flex items-center`}>
                 <div className="hidden md:block cursor-pointer !-top-[13px] absolute text-2xl text-black">
                     <FontAwesomeIcon icon={faChevronLeft}/>
                 </div>
-            </div>
+         </div>
         ,
         nextArrow:
             <div className={`flex items-center`}>
