@@ -34,6 +34,7 @@ export default function () {
         slidesToScroll: 1,
         centerPadding: "0px",
         autoPlay: true,
+        adaptiveHeight: true,
         prevArrow:
 
             <div className={`flex items-center`}>
@@ -69,7 +70,7 @@ export default function () {
                     </a>
                 </Card>
 
-                <Card className="!flex items-center !my-[20%] !h-full align-center justify-center !max-w-fit px-2">
+                <Card className="!flex items-center  !h-full align-center justify-center !max-w-fit px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
                         <img src="/img/shawsystems.png" alt="" className="w-[340px]"/>
                     </a>
