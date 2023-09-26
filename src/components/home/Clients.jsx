@@ -68,7 +68,7 @@ export default function () {
                     </a>
                 </Card>
 
-                <Card className="!flex items-center  !h-full align-center justify-center !max-w-fit px-2">
+                <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 !absolute align-center justify-center !max-w-fit px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
                         <img src="/img/shawsystems.png" alt="" className="w-[340px]"/>
                     </a>
