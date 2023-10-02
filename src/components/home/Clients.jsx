@@ -56,49 +56,49 @@ export default function () {
                 <h2>Our clients</h2>
             </div>
             <Slider className={'w-[80%] mx-auto'} {...settings}>
-                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                <Card className="!flex !h-[125px] items-center !top-0 !bottom-0 m-auto justify-center px-2">
                     <a href="https://www.icg.ch/" target="_blank">
                         <img src="/img/icg.png" alt="" className={'max-w-[150px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                <Card className="!flex items-center m-auto justify-center !h-[125px] px-2">
                     <a href="https://nativeops.ch/" target="_blank">
-                        <img src="/img/nativeops.svg" alt=""  className={'max-w-[100px]'}/>
+                        <img src="/img/nativeops.svg" alt=""  className={'w-[100px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 h-[125px] !absolute align-center justify-center !max-w-fit px-2">
+                <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 !h-[125px] !absolute align-center justify-center !max-w-fit px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
-                        <img src="/img/shawsystems.png" alt="" className={'max-w-[300px] scale-[0.5]'}/>
+                        <img src="/img/shawsystems.png" alt="" className={'max-w-[200px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex justify-content-center m-auto h-[125px] justify-center w-fit px-2">
+                <Card className="!flex justify-content-center !h-[125px] m-auto h-[125px] justify-center w-fit px-2">
                     <a className="" href="https://www.daenzer-consulting.ch/" target="_blank">
                         <img src="/img/danzer-logo.png" alt="" className={'max-w-[150px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                 <Card className="!flex !h-[125px] items-center m-auto justify-center px-2">
                     <a href="https://www.icg.ch/" target="_blank">
                         <img src="/img/icg.png" alt="" className={'max-w-[150px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                <Card className="!flex items-center h-full m-auto justify-center !h-[125px] px-2">
                     <a href="https://nativeops.ch/" target="_blank">
-                        <img src="/img/nativeops.svg" alt=""  className={'max-w-[100px]'}/>
+                        <img src="/img/nativeops.svg" alt=""  className={'w-[100px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 h-[125px] !absolute align-center justify-center !max-w-fit px-2">
+                <Card className="!flex items-center flex-grow !h-[125px] !top-0 !bottom-0 !absolute align-center justify-center !max-w-fit px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
-                        <img src="/img/shawsystems.png" alt="" className={'max-w-[300px] scale-[0.5]'}/>
+                        <img src="/img/shawsystems.png" alt="" className={'max-w-[200px]'}/>
                     </a>
                 </Card>
 
-                <Card className="!flex justify-content-center m-auto h-[125px] justify-center w-fit px-2">
+                <Card className="!flex justify-content-center h-full m-auto !h-[125px] justify-center w-fit px-2">
                     <a className="" href="https://www.daenzer-consulting.ch/" target="_blank">
                         <img src="/img/danzer-logo.png" alt="" className={'max-w-[150px]'}/>
                     </a>
