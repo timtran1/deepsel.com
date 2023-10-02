@@ -31,7 +31,7 @@ export default function () {
         infinite: true,
         speed: 500,
         slidesToShow: (window.innerWidth < 641) ? 1 : (window.innerWidth < 769) ? 2 : (window.innerWidth < 1025) ? 3 : 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         centerPadding: "20px",
         autoPlay: true,
         prevArrow:
@@ -55,28 +55,52 @@ export default function () {
                 <div className="title">trusted by</div>
                 <h2>Our clients</h2>
             </div>
-            <Slider className={'w-[80%] lg:w-[100%] mx-auto'} {...settings}>
+            <Slider className={'w-[80%] mx-auto'} {...settings}>
                 <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
                     <a href="https://www.icg.ch/" target="_blank">
-                        <img src="/img/icg.png" alt="" className={'max-h-[125px]'}/>
+                        <img src="/img/icg.png" alt="" className={'max-w-[150px]'}/>
                     </a>
                 </Card>
 
                 <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
                     <a href="https://nativeops.ch/" target="_blank">
-                        <img src="/img/nativeops.svg" alt=""  className={'h-[125px]'}/>
+                        <img src="/img/nativeops.svg" alt=""  className={'max-w-[100px]'}/>
                     </a>
                 </Card>
 
                 <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 h-[125px] !absolute align-center justify-center !max-w-fit px-2">
                     <a href="https://www.shaw-systems.co.uk/" target="_blank">
-                        <img src="/img/shawsystems.png" alt="" className={'max-h-[125px]'}/>
+                        <img src="/img/shawsystems.png" alt="" className={'max-w-[300px] scale-[0.5]'}/>
                     </a>
                 </Card>
 
                 <Card className="!flex justify-content-center m-auto h-[125px] justify-center w-fit px-2">
                     <a className="" href="https://www.daenzer-consulting.ch/" target="_blank">
-                        <img src="/img/danzer-logo.png" alt="" className={'h-[125px]'}/>
+                        <img src="/img/danzer-logo.png" alt="" className={'max-w-[150px]'}/>
+                    </a>
+                </Card>
+
+                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                    <a href="https://www.icg.ch/" target="_blank">
+                        <img src="/img/icg.png" alt="" className={'max-w-[150px]'}/>
+                    </a>
+                </Card>
+
+                <Card className="!flex items-center m-auto justify-center h-[125px] px-2">
+                    <a href="https://nativeops.ch/" target="_blank">
+                        <img src="/img/nativeops.svg" alt=""  className={'max-w-[100px]'}/>
+                    </a>
+                </Card>
+
+                <Card className="!flex items-center flex-grow !h-full !top-0 !bottom-0 h-[125px] !absolute align-center justify-center !max-w-fit px-2">
+                    <a href="https://www.shaw-systems.co.uk/" target="_blank">
+                        <img src="/img/shawsystems.png" alt="" className={'max-w-[300px] scale-[0.5]'}/>
+                    </a>
+                </Card>
+
+                <Card className="!flex justify-content-center m-auto h-[125px] justify-center w-fit px-2">
+                    <a className="" href="https://www.daenzer-consulting.ch/" target="_blank">
+                        <img src="/img/danzer-logo.png" alt="" className={'max-w-[150px]'}/>
                     </a>
                 </Card>
             </Slider>
