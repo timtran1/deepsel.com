@@ -42,7 +42,7 @@ export default function () {
                         <div className="pull-left logo-box">
                             <div className="logo">
                                 <Link to="/">
-                                    <img src="/img/logo.png" width={110} alt="" title=""/>
+                                    <img src="/deepsel-logos/deepsel-horizontal-main.svg" className={'px-2'} width={200} alt="" title=""/>
                                 </Link>
                             </div>
                         </div>
