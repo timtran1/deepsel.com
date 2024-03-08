@@ -29,6 +29,7 @@ export default function () {
                                     <li><Link to="/react-v">[VIE] <b>React Developer</b> / Part-time / Full Remote<span>(3)</span></Link></li>
                                     <li><Link to="/python-v">[VIE] <b>Python Developer</b> / Part-time / Full Remote<span>(1)</span></Link></li>
                                     <li><Link to="/figma-v">[VIE] <b>Figma Web Designer</b> / Part-time / Full Remote<span>(1)</span></Link></li>
+                                    <li><Link to="/devops-v">[VIE] <b>DevOps Engineer (K8s, Azure)</b> / Part-time / Full Remote<span>(3)</span></Link></li>
                                 </ul>
                             </div>
                         </div>

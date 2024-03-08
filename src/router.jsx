@@ -6,6 +6,7 @@ import Careers from "./routes/Careers.jsx";
 import ReactVie from "./routes/careers/ReactVie.jsx";
 import FigmaVie from "./routes/careers/FigmaVie.jsx";
 import PythonVie from "./routes/careers/PythonVie.jsx";
+import AzureVie from "./routes/careers/AzureVie.jsx";
 
 
 export default createBrowserRouter([
@@ -36,5 +37,9 @@ export default createBrowserRouter([
     {
         path: "/python-v",
         element: <PythonVie/>,
-    }
+    },
+    {
+        path: "/devops-v",
+        element: <AzureVie/>,
+    },
 ])
