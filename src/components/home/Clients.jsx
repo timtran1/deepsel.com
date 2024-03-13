@@ -24,7 +24,7 @@ export default function () {
                 </Card>
 
                 <Card className="flex items-center justify-center min-h-[110px] px-2">
-                    <a href="https://nativeops.ch/" target="_blank">
+                    <a href="https://nativeops.swiss/" target="_blank">
                         <img src="/img/nativeops.svg" alt="" className="w-[100px]"/>
                     </a>
                 </Card>
