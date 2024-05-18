@@ -121,16 +121,16 @@ export default function Carousel() {
     return (
         <main className="relative mx-auto pt-2">
             <div
-                className={'max-md:w-full max-lg:w-[750px] w-[1200px] flex justify-items-center justify-center mx-auto'}>
+                className={'max-md:w-full w-full md:w-[800px] lg:w-[1100px] xl:w-[1400px] flex justify-items-center justify-center mx-auto'}>
                 <button className={'w-[100px] max-md:w-[50px] cursor-pointer bg-white'} onClick={() => {
                     ref.current.scrollBy({left: -300, behavior: 'smooth'})
                     setPosition(position - 1)
                 }}>
                     <FontAwesomeIcon icon={faAngleLeft} size={'2xl'}/>
                 </button>
-                <div className={'w-[900px]  overflow-x-hidden'}>
+                <div className={'w-[300px] md:w-[600px] lg:w-[900px] xl:w-[1200px]  overflow-x-hidden'}>
                     <div
-                        className=" hide-scrollbar flex flex-row overflow-x-scroll gap-[100px] mx-[50px]  text-center"
+                        className=" hide-scrollbar flex flex-row overflow-x-scroll gap-[100px] px-[50px]  text-center"
                         ref={ref}>
                         {clients?.map((client, index) => (
                             <Link key={index}
