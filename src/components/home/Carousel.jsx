@@ -1,8 +1,6 @@
 import {useEffect, useRef, useState} from 'react';
 import {faAngleLeft, faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Link} from "react-router-dom";
-import {useHash} from "@mantine/hooks"
 // import {useTranslation} from "react-i18next";
 import {Card} from "@deepsel/lake-ui";
 import '../../assets/css/scrollbar.css'
@@ -110,6 +108,7 @@ export default function Carousel() {
                     function scroll() {
                         ref.current.scrollTo(1500, 0)
                     }
+
                     setTimeout(scroll, 600)
                 }
             }
@@ -133,18 +132,16 @@ export default function Carousel() {
                         className=" hide-scrollbar flex flex-row overflow-x-scroll gap-[100px] px-[50px]  text-center"
                         ref={ref}>
                         {clients?.map((client, index) => (
-                            <Link key={index}
-                                  to={client.path}
+                            <a key={index}
+                               href={client.path}
                                 // onClick={() => setHash(client.id)}
                             >
                                 <Card
-                                    className="!flex content-center w-[200px] h-full m-auto !h-[125px] justify-center w-fit px-2">
-                                    <a className="w-fit my-auto" href="https://www.daenzer-consulting.ch/"
-                                       target="_blank">
-                                        <img src={client.image} alt="" className={'max-w-[150px] my-auto'}/>
-                                    </a>
+                                    className="!flex content-center !w-[200px] h-full m-auto !h-[125px] justify-center w-fit px-2">
+
+                                    <img src={client.image} alt="" className={'max-w-[150px] my-auto'}/>
                                 </Card>
-                            </Link>
+                            </a>
                         ))}
                     </div>
                 </div>
