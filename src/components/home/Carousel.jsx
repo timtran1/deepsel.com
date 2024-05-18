@@ -46,7 +46,7 @@ export default function Carousel() {
         {
             id: "native-ops",
             image: "/img/nativeops.svg",
-            path: "https://nativeops.ch/",
+            path: "https://nativeops.swiss/",
         },
 
         {

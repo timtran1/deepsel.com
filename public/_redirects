@@ -2,4 +2,7 @@
 /terms-of-service/*    /index.html   200
 /privacy-policy/*    /index.html   200
 /react-v/*    /index.html   200
+/figma-v/*    /index.html   200
+/python-v/*    /index.html   200
+/devops-v/*    /index.html   200
 /blog/*    https://blog.deepsel.com/blog/:splat   200

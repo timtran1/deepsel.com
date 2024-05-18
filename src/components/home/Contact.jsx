@@ -3,7 +3,7 @@ export default function () {
         <section id="contact" className="contact-form-section">
 
             <div className="auto-container">
-                <div className="inner-container bg-gradient-to-r to-[#f27121] from-[#e94057] shadow">
+                <div className="inner-container shadow" style={{backgroundImage:"linear-gradient(to right, #e94057, #f27121)"}}>
                     <div className="icons-one"></div>
                     <div className="icons-two"></div>
                     <h3>Have a job for us? <br/> Send us a message.</h3>
@@ -41,7 +41,6 @@ export default function () {
                         </form>
 
                     </div>
-
                     {/*<div className="side-image wow rubberBand" data-wow-delay="0ms" data-wow-duration="1500ms">*/}
                     {/*    <img src="/img/form-icon.png" alt=""/>*/}
                     {/*</div>*/}

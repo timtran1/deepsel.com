@@ -6,7 +6,7 @@ import WhyUs from "../components/home/WhyUs.jsx";
 import Blog from "../components/home/Blog.jsx";
 import Contact from "../components/home/Contact.jsx";
 import Clients from "../components/home/Clients.jsx";
-// import Services from "../components/home/Services.jsx";
+import Services from "../components/home/Services.jsx";
 
 import '../assets/css/bootstrap.css';
 import '../assets/css/main.css';
@@ -18,7 +18,7 @@ export default function () {
         <>
             <Header/>
             <Hero/>
-            {/*<Services/>*/}
+            <Services/>
             <WhyUs/>
             <Clients/>
             <Steps/>
