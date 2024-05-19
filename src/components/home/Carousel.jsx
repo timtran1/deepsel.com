@@ -54,8 +54,8 @@ export default function Carousel() {
         },
         {
             id: "sekops",
-            image: "/img/sekops.svg",
-            path: "https://bernardgutermann.wixsite.com/sops",
+            image: "/img/sekops.png",
+            path: "https://sekops.ch/",
         },
         {
             id: "shaw-systems",
@@ -120,14 +120,14 @@ export default function Carousel() {
     return (
         <main className="relative mx-auto pt-2">
             <div
-                className={'max-md:w-full w-full md:w-[800px] lg:w-[1100px] xl:w-[1400px] flex justify-items-center justify-center mx-auto'}>
+                className={'max-md:w-full w-full lg:w-[800px] xl:w-[1100px] 2xl:w-[1400px] flex justify-items-center justify-center mx-auto'}>
                 <button className={'w-[100px] max-md:w-[50px] cursor-pointer bg-white'} onClick={() => {
                     ref.current.scrollBy({left: -300, behavior: 'smooth'})
                     setPosition(position - 1)
                 }}>
                     <FontAwesomeIcon icon={faAngleLeft} size={'2xl'}/>
                 </button>
-                <div className={'w-[300px] md:w-[600px] lg:w-[900px] xl:w-[1200px]  overflow-x-hidden'}>
+                <div className={'w-[300px] md:w-[600px] xl:w-[900px] 2xl:w-[1200px]  overflow-x-hidden'}>
                     <div
                         className=" hide-scrollbar flex flex-row overflow-x-scroll gap-[100px] px-[50px]  text-center"
                         ref={ref}>
