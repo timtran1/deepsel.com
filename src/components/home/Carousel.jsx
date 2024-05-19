@@ -133,7 +133,7 @@ export default function Carousel() {
                         ref={ref}>
                         {clients?.map((client, index) => (
                             <a key={index}
-                               href={client.path}
+                               href={client.path} target="_blank"
                                 // onClick={() => setHash(client.id)}
                             >
                                 <Card
