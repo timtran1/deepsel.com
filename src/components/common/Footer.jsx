@@ -1,7 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPhone, faHome, faEnvelope, faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {faHome, faEnvelope, faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-import scroll from "../../ultilities/scroll.js";
 
 import '../../assets/css/footer.css'
 

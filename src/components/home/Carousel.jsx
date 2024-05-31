@@ -94,7 +94,7 @@ export default function Carousel() {
     const ref = useRef(null);
     useEffect(() => {
         return () => {
-            if (ref) {
+            if (ref.current) {
                 ref.current.scrollTo(1500, 0)
             }
         };
@@ -102,7 +102,7 @@ export default function Carousel() {
 
 
     useEffect(() => {
-            console.log(position)
+            // console.log(position)
             if (Math.abs(position % 5) === 0) {
                 if (ref) {
                     function scroll() {
