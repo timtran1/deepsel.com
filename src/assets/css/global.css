@@ -1,3 +1,7 @@
 /*@tailwind base;*/
 @tailwind components;
 @tailwind utilities;
+
+.unicode-safe {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+}
