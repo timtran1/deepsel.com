@@ -33,7 +33,7 @@ export default function () {
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/#top">Home</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><a
-                                                href="/blog">Blog</a></li>
+                                                href="https://blog.deepsel.com">Blog</a></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/careers#top">Careers</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link

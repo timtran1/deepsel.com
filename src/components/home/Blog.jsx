@@ -31,7 +31,7 @@ export default function () {
 
                 <div className="sec-title centered">
                     <div className="title">Blog & News</div>
-                    <h2>Interested in how we work? <br/> check out our <a href="/blog"><span>blog</span></a></h2>
+                    <h2>Interested in how we work? <br/> check out our <a href="https://blog.deepsel.com"><span>blog</span></a></h2>
                 </div>
 
                 <div className="row clearfix">

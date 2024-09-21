@@ -64,7 +64,7 @@ export default function () {
                                     <div className={`${!showMobileMenu? 'hidden md:block': ''} navbar-collapse clearfix`}>
                                         <ul className="navigation clearfix rounded-3xl">
                                             <li className={`rounded-3xl`}><Link to="/">Home</Link></li>
-                                            <li><a href="/blog">Blog</a></li>
+                                            <li><a href="https://blog.deepsel.com">Blog</a></li>
                                             <li><Link to="/careers">Careers</Link></li>
                                             <li><Link to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link>
                                             </li>
