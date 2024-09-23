@@ -6,7 +6,8 @@ import Careers from "./routes/Careers.jsx";
 import FigmaVie from "./routes/careers/FigmaVie.jsx";
 import PythonVie from "./routes/careers/PythonVie.jsx";
 import AzureVie from "./routes/careers/AzureVie.jsx";
-import PublicAuth from "./components/auth/PublicAuth.jsx";
+import PublicAuth from "./common/auth/PublicAuth.jsx";
+import VAT from "./routes/VAT.jsx";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/figma-v" element={<FigmaVie/>}/>
                     <Route path="/python-v" element={<PythonVie/>}/>
                     <Route path="/devops-v" element={<AzureVie/>}/>
+                    <Route path="/vat" element={<VAT/>}/>
                     {/*</Route>*/}
                 </Route>
             </Routes>
