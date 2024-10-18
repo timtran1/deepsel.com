@@ -26,7 +26,7 @@ export default function VAT() {
                             <div className="blog-single">
                                 <div className="inner-box">
 
-                                    <div className="mt-3 pb-[500px]">
+                                    <div className="mt-3 pb-[500px] text-black text-[16px]">
 
                                         <h4>Tên công ty</h4>
                                         <div className={`flex items-center`}>
@@ -37,7 +37,7 @@ export default function VAT() {
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[14px] bg-white ${copied ? 'text-green-500' : 'text-gray-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
@@ -58,7 +58,7 @@ export default function VAT() {
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[14px] bg-white ${copied ? 'text-green-500' : 'text-gray-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
@@ -72,18 +72,36 @@ export default function VAT() {
 
                                         <h4>Địa chỉ trụ sở</h4>
                                         <div className={`flex items-center`}>
-                                            <div>Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ
-                                                Liêm,
-                                                Thành phố Hà Nội, Việt Nam
-                                            </div>
-                                            <CopyButton value="Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm,
-                                            Thành phố Hà Nội, Việt Nam" timeout={2000}>
+                                            <div>Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam</div>
+                                            <CopyButton value="Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam" timeout={2000}>
                                                 {({copied, copy}) => (
                                                     <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[14px] bg-white ${copied ? 'text-green-500' : 'text-gray-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
+                                                            {copied ? (
+                                                                <FontAwesomeIcon icon={faCheck}/>
+                                                            ) : (
+                                                                <FontAwesomeIcon icon={faCopy}/>
+                                                            )}
+                                                        </ActionIcon>
+                                                    </Tooltip>
+                                                )}
+                                            </CopyButton>
+                                        </div>
+
+                                        <h4>Email nhận hoá đơn</h4>
+                                        <div className={`flex items-center`}>
+                                            <div>vat@deepsel.com
+                                            </div>
+                                            <CopyButton value="vat@deepsel.com" timeout={2000}>
+                                                {({copied, copy}) => (
+                                                    <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow
+                                                             position="right">
+                                                        <ActionIcon variant="white"
+                                                                    onClick={copy}
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
