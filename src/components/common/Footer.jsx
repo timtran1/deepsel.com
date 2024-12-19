@@ -37,7 +37,7 @@ export default function () {
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/careers#top">Careers</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="https://lakeui.deepsel.com/" target={"_blank"}>Lake UI</Link></li>
+                                                to="https://gemina.dev/" target={"_blank"}>Gemina AI</Link></li>
                                         </ul>
                                     </div>
                                 </div>
