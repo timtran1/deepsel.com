@@ -8,6 +8,7 @@ import PythonVie from "./routes/careers/PythonVie.jsx";
 import AzureVie from "./routes/careers/AzureVie.jsx";
 import PublicAuth from "./common/auth/PublicAuth.jsx";
 import VAT from "./routes/VAT.jsx";
+import OurTeam from './routes/OurTeam.jsx';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
                     <Route path="/terms-of-service" element={<TermsOfService/>}/>
                     <Route path="/careers" element={<Careers/>}/>
+                    <Route path="/our-team" element={<OurTeam/>}/>
                     <Route path="/figma-v" element={<FigmaVie/>}/>
                     <Route path="/python-v" element={<PythonVie/>}/>
                     <Route path="/devops-v" element={<AzureVie/>}/>

@@ -66,6 +66,7 @@ export default function () {
                                             <li className={`rounded-3xl`}><Link to="/">Home</Link></li>
                                             <li><a href="https://blog.deepsel.com">Blog</a></li>
                                             <li><Link to="/careers">Careers</Link></li>
+                                            <li><Link to="/our-team">Our Team</Link></li>
                                             <li><Link to="https://gemina.dev/" target={"_blank"}>Gemina AI</Link>
                                             </li>
                                             <li>

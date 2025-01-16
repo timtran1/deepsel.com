@@ -37,6 +37,8 @@ export default function () {
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="/careers#top">Careers</Link></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
+                                                to="/our-team#top">Our Team</Link></li>
+                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
                                                 to="https://gemina.dev/" target={"_blank"}>Gemina AI</Link></li>
                                         </ul>
                                     </div>
