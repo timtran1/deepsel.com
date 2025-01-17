@@ -144,11 +144,11 @@ export default function OurTeam() {
                                 <a href={person.facebookUrl} target="_blank" className="transition-grow">
                                     <img src="/img/team/facebook.svg" />
                                 </a>
-                                <a href={person.linkedinUrl} target="_blank" className="transition-grow">
-                                    <img src="/img/team/linkedin.svg" />
-                                </a>
                                 <a href={person.twitterUrl} target="_blank" className="transition-grow">
                                     <img src="/img/team/twitter.svg" />
+                                </a>
+                                <a href={person.linkedinUrl} target="_blank" className="transition-grow">
+                                    <img src="/img/team/linkedin.svg" />
                                 </a>
                                 <a href={person.instagramUrl} target="_blank" className="transition-grow">
                                     <img src="/img/team/instagram.svg" />
