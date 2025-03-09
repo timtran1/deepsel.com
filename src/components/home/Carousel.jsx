@@ -88,6 +88,11 @@ export default function Carousel() {
             image: "/img/shawsystems.png",
             path: "https://www.shaw-systems.co.uk/",
         },
+        {
+            id: "offshored",
+            image: "/img/offshored.png",
+            path: "http://offshored.dev",
+        },
     ];
 
 
