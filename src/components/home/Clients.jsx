@@ -26,16 +26,37 @@ let clients = [
         id: "sekops",
         image: "/img/sekops.png",
         path: "https://sekops.ch/",
+        className: "py-2",
     },
     {
-        id: "shaw-systems",
-        image: "/img/shawsystems.png",
-        path: "https://www.shaw-systems.co.uk/",
+        id: "gemina",
+        image: "/img/gemina.png",
+        path: "http://gemina.dev",
+        className: "",
     },
     {
         id: "offshored",
         image: "/img/offshored.png",
         path: "http://offshored.dev",
+        className: "py-3",
+    },
+    {
+        id: "lexicon",
+        image: "/img/lexicon.png",
+        path: "/",
+        className: "py-2",
+    },
+
+    {
+        id: "clubloungery",
+        image: "/img/clubloungery.png",
+        path: "https://clubloungery.com/",
+        className: "py-3",
+    },
+    {
+        id: "ddg",
+        image: "/img/ddg.svg",
+        path: "https://www.ddgcabinetpsy.ch/",
     },
 ];
 
@@ -49,7 +70,7 @@ export default function Clients() {
                 <h2>Our clients</h2>
             </div>
             {/*<Carousel/>*/}
-            <div className={`flex flex-wrap justify-center items-center max-w-screen-xl mx-auto gap-4`}>
+            <div className={`flex flex-wrap justify-center items-center max-w-[1000px] mx-auto gap-4`}>
                 {clients.map((client, index) => (
                     <a key={index} href={client.path}
                        className={`m-4`}
@@ -60,7 +81,7 @@ export default function Clients() {
                         {/*<div className={`w-[300px] h-[200px] bg-cover bg-center border border-black`}*/}
                         {/*style={{backgroundImage: `url(${client.image})`}}*/}
                         {/*></div>*/}
-                        <img className={`max-h-[100px]`} src={client.image} alt={client.id}/>
+                        <img className={`h-[90px] ${client.className}`} src={client.image} alt={client.id}/>
                     </a>
                 ))}
             </div>
