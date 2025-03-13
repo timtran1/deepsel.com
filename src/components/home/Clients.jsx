@@ -44,7 +44,7 @@ let clients = [
         id: "lexicon",
         image: "/img/lexicon.png",
         path: "/",
-        className: "py-2",
+        className: "py-3",
     },
 
     {
@@ -57,6 +57,11 @@ let clients = [
         id: "ddg",
         image: "/img/ddg.svg",
         path: "https://www.ddgcabinetpsy.ch/",
+    },
+    {
+        id: "oda",
+        image: "/img/oda.svg",
+        path: "https://www.oda-gsag.ch/",
     },
 ];
 
