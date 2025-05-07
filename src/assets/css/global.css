@@ -5,3 +5,13 @@
 .unicode-safe {
     font-family: Inter, Helvetica, Arial, sans-serif;
 }
+
+.transition-grow {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+.transition-grow:hover {
+    transform: scale(1.1);
+}
