@@ -1,9 +1,9 @@
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
 import {CopyButton, ActionIcon, Tooltip, rem} from '@mantine/core';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCheck, faCopy} from "@fortawesome/free-solid-svg-icons";
+import {faCheck, faClone} from "@fortawesome/free-solid-svg-icons";
 
 
 export default function VAT() {
@@ -26,9 +26,9 @@ export default function VAT() {
                             <div className="blog-single">
                                 <div className="inner-box">
 
-                                    <div className="mt-3 pb-[500px] text-black text-[16px]">
+                                    <div className="mt-3 pb-[500px] text-black text-[16px] !font-[Inter]">
 
-                                        <h4>Tên công ty</h4>
+                                        <h4 className="!font-[Inter]">Tên công ty</h4>
                                         <div className={`flex items-center`}>
                                             <div>CÔNG TY CỔ PHẦN DEEPSEL VIỆT NAM</div>
                                             <CopyButton value="CÔNG TY CỔ PHẦN DEEPSEL VIỆT NAM" timeout={2000}>
@@ -37,11 +37,11 @@ export default function VAT() {
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-700'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
-                                                                <FontAwesomeIcon icon={faCopy}/>
+                                                                <FontAwesomeIcon icon={faClone}/>
                                                             )}
                                                         </ActionIcon>
                                                     </Tooltip>
@@ -49,7 +49,7 @@ export default function VAT() {
                                             </CopyButton>
                                         </div>
 
-                                        <h4>Mã số thuế</h4>
+                                        <h4 className="!font-[Inter]">Mã số thuế</h4>
                                         <div className={`flex items-center`}>
                                             <div>0108839111</div>
                                             <CopyButton value="0108839111" timeout={2000}>
@@ -58,11 +58,11 @@ export default function VAT() {
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-700'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
-                                                                <FontAwesomeIcon icon={faCopy}/>
+                                                                <FontAwesomeIcon icon={faClone}/>
                                                             )}
                                                         </ActionIcon>
                                                     </Tooltip>
@@ -70,20 +70,20 @@ export default function VAT() {
                                             </CopyButton>
                                         </div>
 
-                                        <h4>Địa chỉ trụ sở</h4>
+                                        <h4 className="!font-[Inter]">Địa chỉ trụ sở</h4>
                                         <div className={`flex items-center`}>
-                                            <div>Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam</div>
-                                            <CopyButton value="Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam" timeout={2000}>
+                                            <div>Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Thành phố Hà Nội, Việt Nam</div>
+                                            <CopyButton value="Tầng 06, Tòa nhà IRIS, Số 66 Phố Lộc, Phường Xuân Đỉnh, Thành phố Hà Nội, Việt Nam" timeout={2000}>
                                                 {({copied, copy}) => (
                                                     <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-700'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
-                                                                <FontAwesomeIcon icon={faCopy}/>
+                                                                <FontAwesomeIcon icon={faClone}/>
                                                             )}
                                                         </ActionIcon>
                                                     </Tooltip>
@@ -91,7 +91,7 @@ export default function VAT() {
                                             </CopyButton>
                                         </div>
 
-                                        <h4>Email nhận hoá đơn</h4>
+                                        <h4 className="!font-[Inter]">Email nhận hoá đơn</h4>
                                         <div className={`flex items-center`}>
                                             <div>vat@deepsel.com
                                             </div>
@@ -101,11 +101,11 @@ export default function VAT() {
                                                              position="right">
                                                         <ActionIcon variant="white"
                                                                     onClick={copy}
-                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-500'}`}>
+                                                                    className={`px-2 rounded-lg text-[18px] cursor-pointer bg-white ${copied ? 'text-green-500' : 'text-blue-700'}`}>
                                                             {copied ? (
                                                                 <FontAwesomeIcon icon={faCheck}/>
                                                             ) : (
-                                                                <FontAwesomeIcon icon={faCopy}/>
+                                                                <FontAwesomeIcon icon={faClone}/>
                                                             )}
                                                         </ActionIcon>
                                                     </Tooltip>
