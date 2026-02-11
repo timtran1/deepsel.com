@@ -84,9 +84,7 @@ export default function () {
                                             </a></li>
                                             <li>
                                                 <FontAwesomeIcon icon={faHome} className="mr-2"/>
-                                                2261 Market Street #4441 <br/>San
-                                                Francisco
-                                                CA, 94114
+                                                1111B S Governors Ave # 46739 <br/>Dover DE 19901<br/>USA
                                             </li>
                                         </ul>
                                         <ul className="list-style-one">

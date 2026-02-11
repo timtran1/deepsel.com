@@ -292,7 +292,7 @@ export default function () {
                                                 accordance
                                                 with
                                                 the
-                                                laws of the State of California and the laws of the United States
+                                                laws of the State of Delaware and the laws of the United States
                                                 applicable
                                                 therein, without regard to principles of conflicts of laws. The United
                                                 Nations
@@ -463,11 +463,11 @@ export default function () {
                                             <p>
                                                 1. “Deepsel Contracting Party” means Deepsel Inc., a US corporation,
                                                 with
-                                                offices located at 2261 Market Street #4441 San Francisco CA, 94114.
+                                                offices located at 1111B S Governors Ave # 46739 Dover, DE 19904.
                                             </p>
                                             <p>
                                                 2. The parties irrevocably and unconditionally submit to the exclusive
-                                                jurisdiction of the courts of the State of Californina with respect to
+                                                jurisdiction of the courts of the State of Delaware with respect to
                                                 any
                                                 dispute or claim arising out of or in connection with the Terms of
                                                 Service. The
@@ -1758,9 +1758,9 @@ export default function () {
                                             <p>
                                                 <b>Deepsel Inc.</b>
                                                 <br/>
-                                                2261 Market Street #4441
+                                                1111B S Governors Ave # 46739
                                                 <br/>
-                                                San Francisco CA, 94114
+                                                Dover DE 19904
                                             </p>
 
                                         </div>

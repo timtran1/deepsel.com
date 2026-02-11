@@ -263,9 +263,9 @@ export default function () {
                                                 <br/>
                                                 <a href="mailto:info@deepsel.com">info@deepsel.com</a>
                                                 <br/>
-                                                2261 Market Street #4441
+                                                1111B S Governors Ave # 46739
                                                 <br/>
-                                                San Francisco CA, 94114
+                                                Dover DE 19904
                                             </p>
 
                                         </div>
