@@ -20,7 +20,7 @@ export default function () {
                                 <div className="footer-column col-lg-7 col-md-6 col-sm-12">
                                     <div className="footer-widget logo-widget">
                                         <div className="logo">
-                                            <Link to="/"><img src="/deepsel-logos/deepsel-horizontal-main.svg" width={200} alt=""/></Link>
+                                            <Link to="/"><img src="/deepsel-logos/deepsel-horizontal.png" width={200} alt=""/></Link>
                                         </div>
 
                                     </div>
