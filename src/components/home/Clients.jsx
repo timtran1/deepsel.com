@@ -16,7 +16,18 @@ let clients = [
         image: "/img/nativeops.svg",
         path: "https://nativeops.swiss",
     },
-
+    {
+        id: "agov",
+        image: "/img/agov-logo.png",
+        path: "https://www.agov.admin.ch/",
+        className: "!h-[180px]",
+    },
+    {
+        id: "eiam",
+        image: "/img/eGorvernman.png",
+        path: "https://www.eiam.admin.ch/",
+        className: "!h-[220px]",
+    },
     {
         id: "daenzer",
         image: "/img/danzer-logo.png",
@@ -28,25 +39,6 @@ let clients = [
         path: "https://sekops.ch/",
         className: "py-2",
     },
-    {
-        id: "deepsel-cms",
-        image: "/img/gemina.png",
-        path: "https://github.com/DeepselSystems/deepsel-cms",
-        className: "",
-    },
-    {
-        id: "offshored",
-        image: "/img/offshored.png",
-        path: "http://offshored.dev",
-        className: "py-3",
-    },
-    {
-        id: "lexicon",
-        image: "/img/lexicon.png",
-        path: "/",
-        className: "py-3",
-    },
-
     {
         id: "clubloungery",
         image: "/img/clubloungery.png",
