@@ -65,8 +65,7 @@ export default function () {
                                         <ul className="navigation clearfix rounded-3xl">
                                             <li className={`rounded-3xl`}><Link to="/">Home</Link></li>
                                             <li><a href="https://blog.deepsel.com">Blog</a></li>
-                                            <li><Link to="/careers">Careers</Link></li>
-                                            <li><Link to="https://gemina.dev/" target={"_blank"}>Gemina AI</Link>
+                                            <li><Link to="https://github.com/DeepselSystems/deepsel-cms" target={"_blank"}>Deepsel CMS</Link>
                                             </li>
                                             <li>
                                                 <Link to="/#contact" onClick={e => scroll(e, 'contact')}>

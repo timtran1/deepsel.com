@@ -29,9 +29,9 @@ let clients = [
         className: "py-2",
     },
     {
-        id: "gemina",
+        id: "deepsel-cms",
         image: "/img/gemina.png",
-        path: "http://gemina.dev",
+        path: "https://github.com/DeepselSystems/deepsel-cms",
         className: "",
     },
     {

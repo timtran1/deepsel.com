@@ -35,9 +35,7 @@ export default function () {
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><a
                                                 href="https://blog.deepsel.com">Blog</a></li>
                                             <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="/careers#top">Careers</Link></li>
-                                            <li><FontAwesomeIcon icon={faAngleRight} className="mr-2"/><Link
-                                                to="https://gemina.dev/" target={"_blank"}>Gemina AI</Link></li>
+                                                to="https://github.com/DeepselSystems/deepsel-cms" target={"_blank"}>Deepsel CMS</Link></li>
                                         </ul>
                                     </div>
                                 </div>
