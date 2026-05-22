@@ -20,7 +20,7 @@ let clients = [
         id: "agov",
         image: "/img/agov-logo.png",
         path: "https://www.agov.admin.ch/",
-        className: "!h-[180px]",
+        className: "!h-[140px]",
     },
     {
         id: "eiam",
