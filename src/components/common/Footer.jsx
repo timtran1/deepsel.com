@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHome, faEnvelope, faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {faHome, faEnvelope, faAngleRight, faPhone} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
 
 import '../../assets/css/footer.css'
@@ -70,16 +70,16 @@ export default function () {
                                     <div className="footer-widget gallery-widget">
                                         <ul className="list-style-one">
                                             <li className="pl-0"><b>Deepsel Inc.</b></li>
-                                            {/*<li>*/}
-                                            {/*    <a href="tel:4156551009">*/}
-                                            {/*        <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#666666]"/>*/}
-                                            {/*        (415) 655 1009*/}
-                                            {/*    </a>*/}
-                                            {/*</li>*/}
                                             <li><a href="mailto:info@deepsel.com">
                                                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-[#666666]"/>
                                                 info@deepsel.com
                                             </a></li>
+                                            <li>
+                                                <a href="tel:3024653338">
+                                                    <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#666666]"/>
+                                                    (302) 465-3338
+                                                </a>
+                                            </li>
                                             <li>
                                                 <FontAwesomeIcon icon={faHome} className="mr-2"/>
                                                 1111B S Governors Ave # 46739 <br/>Dover DE 19904<br/>USA
