@@ -26,7 +26,7 @@ export default function () {
                                 <div className="inner-box">
                                     <ul className="post-meta">
                                         <li className="style-two"><FontAwesomeIcon icon={faCalendarDays} className={`mr-2`}/>Updated
-                                            July 3, 2021
+                                            July 17, 2026
                                         </li>
 
                                     </ul>

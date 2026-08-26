@@ -30,7 +30,7 @@ export default function () {
                                             <FontAwesomeIcon icon={faCalendarDays} className={`mr-2`}/>
                                             Updated
                                             July
-                                            3, 2021
+                                            17, 2026
                                         </li>
                                     </ul>
 
