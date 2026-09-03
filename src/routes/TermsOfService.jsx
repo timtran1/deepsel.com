@@ -463,7 +463,7 @@ export default function () {
                                             <p>
                                                 1. “Deepsel Contracting Party” means Deepsel Inc., a US corporation,
                                                 with
-                                                offices located at 1111B S Governors Ave # 46739 Dover, DE 19904.
+                                                offices located at 2810 N Church St STE 89507, Wilmington, DE 19802.
                                             </p>
                                             <p>
                                                 2. The parties irrevocably and unconditionally submit to the exclusive
@@ -1758,9 +1758,9 @@ export default function () {
                                             <p>
                                                 <b>Deepsel Inc.</b>
                                                 <br/>
-                                                1111B S Governors Ave # 46739
+                                                2810 N Church St STE 89507
                                                 <br/>
-                                                Dover DE 19904
+                                                Wilmington DE 19802
                                             </p>
 
                                         </div>

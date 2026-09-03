@@ -263,9 +263,9 @@ export default function () {
                                                 <br/>
                                                 <a href="mailto:info@deepsel.com">info@deepsel.com</a>
                                                 <br/>
-                                                1111B S Governors Ave # 46739
+                                                2810 N Church St STE 89507
                                                 <br/>
-                                                Dover DE 19904
+                                                Wilmington DE 19802
                                             </p>
 
                                         </div>

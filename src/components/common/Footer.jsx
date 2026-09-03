@@ -82,7 +82,7 @@ export default function () {
                                             </li>
                                             <li>
                                                 <FontAwesomeIcon icon={faHome} className="mr-2"/>
-                                                1111B S Governors Ave # 46739 <br/>Dover DE 19904<br/>USA
+                                                2810 N Church St STE 89507 <br/>Wilmington DE 19802<br/>USA
                                             </li>
                                         </ul>
                                         <ul className="list-style-one">
